@@ -7,6 +7,7 @@
 @include carbon--font-face-sans();
 
 body {
+  visibility: inherit; // Initially hidden to avoid FOUC
   padding: calc(#{mini-units(6)} + 1px) 0 0 0;
 }
 

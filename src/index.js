@@ -13,3 +13,9 @@ window.digitalData = {
     isDataLayerReady: true,
   },
 };
+
+document.addEventListener('click', event => {
+  if (event.target.matches('dds-locale-button')) {
+    document.querySelector('dds-locale-modal').open = true;
+  }
+});
