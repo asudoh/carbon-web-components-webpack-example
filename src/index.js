@@ -14,6 +14,7 @@ import '@carbon/ibmdotcom-web-components/es/components/masthead/masthead-global-
 import '@carbon/ibmdotcom-web-components/es/components/masthead/masthead-profile.js';
 import '@carbon/ibmdotcom-web-components/es/components/masthead/masthead-profile-item.js';
 import '@carbon/ibmdotcom-web-components/es/components/masthead/masthead-search-container.js';
+import './index.scss';
 
 window.digitalData = {
   page: {
